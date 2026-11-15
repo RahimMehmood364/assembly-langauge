@@ -1,4 +1,4 @@
-; COMP1001 Q3 - Convert C code to assembly (x86-64 NASM, macOS)
+
 ; for (i = 0; i < 10; i++)
 ;     B[i] = (A[i]*3 + 1) + (C[i]*2 + 1) + (A[i] + C[i]) / 2;
 
@@ -8,7 +8,7 @@ section .data
     C db 4, 6, 8, 10, 12, 14, 16, 18, 20, 22
 
 section .bss
-    B resb 10                   ; empty output list: room for 10 bytes (largest answer is 127)
+    B resb 10                   
 
 section .text
     global _main
