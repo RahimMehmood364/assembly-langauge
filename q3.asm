@@ -39,7 +39,7 @@ loop_start:
     inc esi                     ; i++
     jmp loop_start              ; repeat
 loop_end:
-    ; exit the program (macOS)
+    
     mov eax, 0x2000001          ; exit syscall
     xor edi, edi                ; exit code 0
     syscall
