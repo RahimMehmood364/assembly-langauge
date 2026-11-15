@@ -1,3 +1,8 @@
+RAHIM MEHMOOD 
+QUESTION NO.2
+
+
+
 section .data
     ; our list of four 32-bit numbers
     numbers dd 8, 16, 24, 32
